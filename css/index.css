@@ -1,0 +1,770 @@
+/*
+* @Author: lenovo
+* @Date:   2017-10-16 10:28:25
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-10-19 13:09:10
+*/
+@import url('base.css');
+/* 头部 */
+.a1{
+	width: 100%;
+	height: 40px;
+	background: #444;
+}
+.a2{
+	height: 40px;
+	margin: 0 auto;
+}
+.a3{
+	float: right;
+	font-size: 15px;
+	line-height:40px;
+	color: #a8a8aa;
+}
+nav{
+	width: 100%;
+	height: 44px;
+	background:#333;
+}
+nav ul{
+	height: 44px;
+	margin: 0 auto;
+}
+nav ul li{
+	height: 44px;
+	margin: 0 auto;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+ul li a{
+	font-size: 10px;
+	line-height: 44px;
+	color: white;
+}
+
+@font-face {
+  font-family: 'iconfont';  /* project id 440708 */
+  src: url('http://at.alicdn.com/t/font_440708_cp94jvsyb7kqpvi.eot');
+  src: url('http://at.alicdn.com/t/font_440708_cp94jvsyb7kqpvi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_440708_cp94jvsyb7kqpvi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_440708_cp94jvsyb7kqpvi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_440708_cp94jvsyb7kqpvi.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+	font-style: normal;
+	font-size: 20px;
+}
+.a9 ul{
+	width: 100%;
+	height: auto;
+
+
+}
+
+
+.a9 ul li:last-child{
+	width: 100%;
+	height:580px;
+	margin-bottom: 12px;
+    background:#ebe5e5 ;
+}
+
+
+.a10{
+	width: 100%;
+	margin:0 auto;
+	padding-top:39px;
+}
+
+
+.a10 h5{
+	font-size: 27px;
+	text-align: center;
+
+}
+/* 中内容 */
+    .a12{
+	width: 100%;
+	height:1000px;
+	background: pink;
+    }
+    .a12 ul li:after{
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	line-height: 0;
+	clear: both;
+    }
+    .a15{
+	width:100%;
+	height: 136.63px;
+	margin: 0 auto;
+	margin-top: 40px;
+    }
+    .a15 h3{
+	font-size: 45px;
+	text-align: center;
+    }
+    .a15 h4{
+	font-size: 35px;
+	text-align: center;
+    }
+    .a16{
+	width: 100%;
+	margin-top: 19px;
+    }
+    .a70{
+    	width: 100%;
+    }
+    .a35{
+    width: 100%;
+    padding: 0 90px;
+    background: #f2f2f2;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    }
+    .a36{
+    width: 100%;
+    
+    float: left;
+    background: #f2f2f2;
+   }
+    .a37{
+    width: 20%;
+	padding-top:50px;
+	float: left;
+    }
+    .a38{
+	display: block;
+	padding-top: 5px;
+	color: #555;
+	font-size: 10px;
+	line-height: 18px;
+    }
+    .a39{
+    font-size: 11px;
+    }
+    .a63{
+    	margin-bottom: 20px;
+    }
+
+    .a41{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;	
+	width:100%;
+	 background: #f2f2f2;
+    }
+    .a42{
+    width: 100%;
+    float: left;
+    padding-top:34px;
+    padding-bottom: 6px;
+    margin-bottom: 10px;
+	border-bottom: 1px solid #b0b0b0;
+	}
+	.a43{
+		width: 100%;
+	}
+	.a44{
+    margin-bottom: 7px;
+    font-size: 380px;
+	}
+    .a66{
+    width: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    }
+    .a68{
+    width: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+
+    }
+   .a44{
+	float: left;
+	color: #b0b0b0;
+	font-size: 10px;
+    }
+   .a44 span{
+	color: blue;
+	font-size: 10px;
+    }
+    .a45{
+	color: #b0b0b0;
+	font-size: 10px;
+    }
+   .a47{
+	color: #555;
+	font-size: 10px;
+    }
+   .a47{
+	padding:0  10px;
+	border-right: 1px solid #b0b0b0;
+    }
+    .a47:first-child{
+
+	padding-left:0px;
+    }
+    .a47:last-child{
+	border-right: 0px solid #f5f5f5;
+    }
+    .a48{
+    	width: 45px;
+    	display: -webkit-flex;
+    	display: -moz-flex;
+    	display: -ms-flex;
+    	display: -o-flex;
+    	display: flex;
+    	float: right;
+    	font-size: 10px;
+    	justify-content: flex-end;
+
+     }
+    .a50{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: url('../img/16.png');
+	float: left;
+	margin-right: 5px;
+    }
+    .a52{
+	color: #b0b0b0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-start;
+	padding-bottom: 30px;
+    }
+ /* 第三 */
+    .a53{
+	width: 100%;
+	background:#f5f5f5;
+
+   }
+    .a54{
+	width: 100%;
+	height: 429px;
+	text-align: center;
+	padding-left: 15px;
+	 padding-right: 15px;
+	 background:#f5f5f5; 
+    }
+    .a55{
+    	margin-bottom: 6px;
+    }
+
+
+   .a59{
+	width: 100%;
+	height: 38px;
+	font-size: 10px;
+	color: #555;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #b0b0b0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    }
+     .a59 span{
+     	font-size: 15px;
+     color: black;
+
+    }
+    .a60{
+	width: 100%;
+	height: 38px;
+	color: #555;
+	padding-bottom: 5px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+     }
+    .a61{
+    width: 480px;
+	height: 30px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+     }
+     .a62{
+	color: #b0b0b0;
+	font-size: 10px;
+	padding-bottom: 5px;
+     }
+     .a61{
+     	margin-bottom: 10px;
+     }
+
+
+
+
+@media screen and (min-width: 1024px){
+	.a2{
+		width: 976px;
+	}
+	nav ul{
+         width: 976px;
+	}
+	.a6{
+		display: block;
+	}
+	.a7{
+		display:none;
+	}
+	.a10 h2{
+	font-size: 56px;
+	text-align: center;
+	color: black;
+
+   }
+   .a10 h3{
+	font-size:32px;
+	text-align: center;
+	color: black;
+
+   }
+   .a10 h5{
+	font-size: 30px;
+	text-align: center;
+
+   }
+    h6{
+    	font-size:32px;
+	text-align: center;
+   	color: #cc1b1b;
+   }
+
+    .a9 ul li:first-child{
+	width: 100%;
+	height:580px;
+	margin-bottom: 12px;
+    background: #f9f0ed;
+   }
+   .a9 ul li:nth-child(2){
+	width: 100%;
+	height:580px;
+	margin-bottom: 12px;
+    background:#fafafa;
+    }
+    .a9 ul li:last-child{
+	width: 100%;
+	height:580px;
+	margin-bottom: 12px;
+    background:#fafafa;
+    }
+
+	
+	.a11{
+	width: 561px;
+	height: 395px;
+	margin: 0 auto;
+	margin-top: 30px;
+	background: url('../img/iphone_8_medium.jpg') no-repeat center center;
+	background-size: 561px 395px;
+   }
+    .a18{
+	width: 100%;
+	height: 395px;
+	margin: 0 auto;
+	margin-top: 32px;
+	background: url('../img/iphone_x_large.jpg') no-repeat center center;
+   }
+   .a19{
+   	width: 100%;
+	height: 395px;
+	margin: 0 auto;
+	margin-top: 20px;
+	background: url('../img/watch_medium.jpg') no-repeat center center;
+   }
+   .a12 ul li{
+	width:50%;
+	height:508px;
+	box-sizing: border-box;
+	background: #fafafa;
+	border-right: 12px solid white;
+	border-bottom: 12px solid white;
+	float: left;
+    }
+    .a12 ul li:nth-child(odd){
+    	border-left: 12px solid white;
+    }
+   .a17{
+	width: 451px;
+	height: 300px;
+	margin-left: 30px;
+	background: url('../img/ios_large.jpg') no-repeat center center;
+	background-size: 451px 300px;
+    }
+    .a15 h3{
+	font-size: 45px;
+	text-align: center;
+	margin-bottom: 5px;
+    }
+    .a15 h4{
+	font-size: 25px;
+	text-align: center;
+    margin-bottom: 5px;
+    }
+     .a15 h5{
+    	font-size: 25px;
+    	text-align: center;
+    }
+ 
+   .a20{
+	width: 430px;
+	height: 300px;
+	margin-left: 70px;
+	background: url('../img/watchos_large.jpg') no-repeat center center;
+	background-size: 430px 300px;
+    }
+    .a21{
+    width: 100%;
+	height: 300px;
+	margin-left: 0px;
+	background: url('../img/trade_up_medium.jpg') no-repeat center center;
+	background-size: 100% 300px;
+    }
+  
+    .a23{
+    width: 430px;
+	height: 280px;
+	margin-left: 70px;
+	background: url('../img/macos_high_sierra_small.jpg') no-repeat center center;
+	background-size: 430px 280px;
+    }
+    br{
+    	display: none;
+    }
+    .a53{
+    	display: none;
+    }
+    .a35{
+    	display: block;
+    }
+    .a41{
+    	display: block;
+    }
+}
+@media screen and (max-width: 1024px){
+	.a3{
+		padding-right: 22px;
+	}
+	ul li{
+		padding: 0 22px;
+	}
+	.a6{
+		display: block;
+	}
+	.a7{
+		display:none;
+	}
+	.a10 h2{
+	font-size: 40px;
+	text-align: center;
+	color: black;
+
+   }
+   .a10 h3{
+	font-size: 25px;
+	text-align: center;
+	color: black;
+
+   }
+   .a10 h5{
+	font-size: 25px;
+	text-align: center;
+
+   }
+   h6{
+    font-size:25px;
+	text-align: center;
+   	color: #cc1b1b;
+   }
+
+	.a9 ul li:first-child{
+	width: 100%;
+	height:569px;
+	margin-bottom: 12px;
+    background: #f9f0ed;
+   }
+   .a9 ul li:nth-child(2){
+	width: 100%;
+	height:569px;
+	margin-bottom: 12px;
+    background:#fafafa;
+    }
+    .a18{
+	width: 100%;
+	height: 388px;
+	margin: 0 auto;
+	margin-top: 32px;
+	background: url('../img/iphone_x_medium.jpg') no-repeat center center;
+   }
+
+    .a11{
+	width: 549px;
+	height: 388px;
+	margin: 0 auto;
+	margin-top: 57px;
+	background: url('../img/iphone_8_medium (1).jpg') no-repeat center center;
+	background-size: 549px 388px;
+    }
+    .a9 ul li:last-child{
+	width: 100%;
+	height:569px;
+	margin-bottom: 12px;
+    background:#fafafa;
+   }
+   .a19{
+   	width: 100%;
+	height: 388px;
+	margin: 0 auto;
+	margin-top: 32px;
+	background: url('../img/watch_large.jpg') no-repeat center center;
+    }
+    .a12 ul li{
+	width:50%;
+	height:520px;
+	box-sizing: border-box;
+	background: #fafafa;
+	border-right: 12px solid white;
+	border-bottom: 12px solid white;
+	float: left;
+    }
+     .a12 ul li:nth-child(odd){
+    	border-left: 12px solid white;
+    }
+    .a17{
+	width: 330px;
+	height: 260px;
+	background: pink;
+	margin-left: 8px;
+	background: url('../img/ios_medium.jpg') no-repeat center center;
+	background-size:330px 260px;
+    }
+    .a15 h3{
+	font-size: 45px;
+	text-align: center;
+	margin-bottom: 5px;
+    }
+    .a15 h4{
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 5px;
+    }
+    .a20{
+	width: 340px;
+	height: 300px;
+	margin-left: 8px;
+	background: url('../img/watchos_medium.jpg') no-repeat center center;
+	background-size:340px 300px;
+    }
+    .a21{
+    width:100%;
+	height: 300px;
+	margin-left:0px;
+	background: url('../img/trade_up_small.jpg') no-repeat center center;
+	background-size: 100% 300px;
+    }
+    .a15 h5{
+    	font-size: 18px;
+    	text-align: center;
+
+    }
+    .a23{
+    width: 330px;
+	height: 200px;
+	margin-left: 0px;
+	background: url('../img/macos_high_sierra_medium.jpg') no-repeat center center;
+	background-size: 330px 200px;
+    }
+    .a35{
+    	display: block;
+    }
+    .a53{
+    	display: none;
+    }
+     .a41{
+    	display: block;
+    }
+
+}
+@media screen and (max-width: 768px){
+	ul li{
+		padding-right: 22px;
+	}
+	.a6{
+		display: none;
+	}
+	.a7{
+		display:block;
+	}
+	.a10 h2{
+	font-size: 30px;
+	text-align: center;
+	color: black;
+
+   }
+   .a10 h3{
+	font-size: 15px;
+	text-align: center;
+	color: black;
+
+   }
+   .a10 h5{
+	font-size: 15px;
+	text-align: center;
+
+   }
+   h6{
+    font-size:15px;
+	text-align: center;
+   	color: #cc1b1b;
+   }
+	.a9 ul li:first-child{
+	width: 100%;
+	height:500px;
+	margin-bottom: 12px;
+    background: #f9f0ed;
+   }
+
+    .a11{
+	width: 267px;
+	height: 347px;
+	margin: 0px auto;
+	margin-top:53px; 
+	background: url('../img/iphone_8_small.jpg') no-repeat center center;
+	background-size: 267px 347px;
+    }
+    .a9 ul li:nth-child(2){
+	width: 100%;
+	height:500px;
+	margin-bottom: 12px;
+    background:#fafafa;
+    }
+    .a18{
+	width: 100%;
+	height: 347px;
+	margin: 0 auto;
+	margin-top: 5px;
+	background: url('../img/iphone_x_small.jpg') no-repeat center center;
+   }
+    .a9 ul li:last-child{
+	width: 100%;
+	height:500px;
+	margin-bottom: 12px;
+    background:#fafafa;
+    }
+    .a19{
+   	width: 100%;
+	height: 347px;
+	margin: 0 auto;
+	margin-top: 32px;
+	background: url('../img/watch_small.jpg') no-repeat center center;
+   }
+     .a12 ul li{
+	width:100%;
+	height:480px;
+	box-sizing: border-box;
+	background: #fafafa;
+	border-right: 0px solid white;
+	border-bottom: 12px solid white;
+    }
+     .a12 ul li:nth-child(odd){
+    	border-left: 0px solid white;
+    }
+    .a17{
+	width:100%;
+	height: 260px;
+	background: pink;
+	text-align: center;
+	background: url('../img/ios_medium.jpg') no-repeat center center;
+	background-size:330px 200px;
+    }
+     .a15 h3{
+	font-size: 30px;
+	text-align: center;
+    }
+    .a15 h4{
+	font-size: 15px;
+	text-align: center;
+    }
+     br{
+    	display: none;
+    }
+    .a20{
+	width: 340px;
+	height: 250px;
+	margin:0 auto;
+	background: url('../img/watchos_medium.jpg') no-repeat center center;
+	background-size:340px 250px;
+    }
+     .a21{
+    width: 100%;
+	height: 270px;
+	margin: 0 auto;
+	background: url('../img/trade_up_large.jpg') no-repeat center center;
+	background-size: 100% 300px;
+    }
+     .a15 h5{
+    	font-size: 15px;
+    	text-align: center;
+    }
+    .a23{
+    width: 330px;
+	height: 200px;
+	margin: 0 auto;
+	background: url('../img/macos_high_sierra_medium.jpg') no-repeat center center;
+	background-size: 330px 200px;
+    }
+    .a35{
+    	display: none;
+    }
+    .a53{
+    	display: block;
+    }
+     .a41{
+    	display: none;
+    }
+    .a12{
+	width: 100%;
+	height:1920px;
+	background: pink;
+}
+}
